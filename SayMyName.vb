@@ -11,6 +11,15 @@ Option Strict On
 Module SayMyName
 
     Sub Main()
+        Dim firstName As String
+        Dim lastName As String
+
+        Console.WriteLine("What is your first name?")
+        firstName = Console.ReadLine()
+        Console.WriteLine("What is your last name?")
+        lastName = Console.ReadLine()
+        Console.WriteLine("Hello, " + firstName + " " + lastName)
+        Console.ReadLine()
 
     End Sub
 
