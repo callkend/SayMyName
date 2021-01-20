@@ -2,7 +2,7 @@
 'RCET0265
 'Spring 2020
 'Say My Name
-'
+'https://github.com/callkend/SayMyName.git
 
 Option Explicit On
 Option Strict On
