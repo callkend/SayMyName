@@ -7,18 +7,19 @@
 Option Explicit On
 Option Strict On
 
-
 Module SayMyName
 
     Sub Main()
         Dim firstName As String
-        Dim lastName As String
 
-        Console.WriteLine("What is your first name?")
+        Console.WriteLine("What is your name?")
         firstName = Console.ReadLine()
-        Console.WriteLine("What is your last name?")
-        lastName = Console.ReadLine()
-        Console.WriteLine("Hello, " + firstName + " " + lastName)
+
+        If firstName = "Joe" Or firstName = "Emily" Then
+            Console.WriteLine("Hello, " + firstName)
+        ElseIf firstName = "Kendall" Then
+            Console.WriteLine($"Get Good {firstName}")
+        End If
         Console.ReadLine()
 
     End Sub
