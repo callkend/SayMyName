@@ -19,6 +19,8 @@ Module SayMyName
             Console.WriteLine("Hello, " + firstName)
         ElseIf firstName = "Kendall" Then
             Console.WriteLine($"Get Good {firstName}")
+        Else
+            Console.WriteLine("Hello")
         End If
         Console.ReadLine()
 
